@@ -1,4 +1,6 @@
 ---
 title: "My First Post"
-description: ""
+description: "This is a post"
 ---
+
+This is a post
