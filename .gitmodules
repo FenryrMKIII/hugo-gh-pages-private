@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/FenryrMKIII/hugo-gh-pages-public
+[submodule "themes/uBlogger"]
+	path = themes/uBlogger
+	url = https://github.com/uPagge/uBlogger
