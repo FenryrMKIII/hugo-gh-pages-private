@@ -1,29 +1,22 @@
-baseURL = "https://fenryrmkiii.github.io/"
+# baseURL = "https://fenryrmkiii.github.io/"
 
 # [en, zh-cn, fr, pl, ...] determines default content language
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 
 # theme
-# 主题
 theme = "uBlogger"
 
 # themes directory
-# 主题目录
 themesDir = "themes"
 
 # website title
-# 网站标题
 title = "uBlogger"
 
 # whether to use robots.txt
-# 是否使用 robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-# 是否使用 git 信息
 enableGitInfo = true
 # whether to use emoji code
-# 是否使用 emoji 代码
 enableEmoji = true
 
 [languages]
@@ -228,6 +221,208 @@ enableEmoji = true
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"
+  [languages.fr]
+      weight = 1
+      # language code
+      languageCode = "fr"
+      # language name
+      languageName = "Français"
+      # whether to include Chinese/Japanese/Korean
+      hasCJKLanguage = false
+      # default amount of posts in each pages
+      paginate = 12
+      # copyright description used only for seo schema
+      copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+      # Menu config
+      [languages.fr.menu]
+        [[languages.fr.menu.main]]
+          identifier = "articles"
+          # you can add extra information before the name (HTML format is supported), such as icons
+          pre = ""
+          # you can add extra information after the name (HTML format is supported), such as icons
+          post = ""
+          name = "Articles"
+          url = "/posts/"
+          # title will be shown when you hover on this menu link.
+          title = ""
+          weight = 1
+        [[languages.fr.menu.main]]
+          identifier = "tags"
+          pre = ""
+          post = ""
+          name = "Tags"
+          url = "/tags/"
+          title = ""
+          weight = 2
+        [[languages.fr.menu.main]]
+          identifier = "Catégories"
+          pre = ""
+          post = ""
+          name = "Catégories"
+          url = "/categories/"
+          title = ""
+          weight = 3
+        [[languages.fr.menu.main]]
+          identifier = "documentation"
+          pre = ""
+          post = ""
+          name = "Doc"
+          url = "/categories/documentation/"
+          title = ""
+          weight = 4
+        [[languages.fr.menu.main]]
+          identifier = "à propos"
+          pre = ""
+          post = ""
+          name = "à propos"
+          url = "/about/"
+          title = ""
+          weight = 5
+        [[languages.fr.menu.main]]
+          identifier = "github"
+          pre = "<i class='fab fa-github fa-fw'></i>"
+          post = ""
+          name = ""
+          url = "https://github.com/upagge/ublogger"
+          title = "GitHub"
+          weight = 6
+      [languages.fr.params]
+        # site description
+        description = "Hollistique. Une approche complète de la performance Humaine."
+        # site keywords
+        keywords = ["Hollistique", "Performance", "Respiration", "Système nerveux", "Sport", "Entrainement",
+        "Optimisation"]
+        # App icon config
+        [languages.fr.params.app]
+          # optional site title override for the app when added to an iOS home screen or Android launcher
+          title = "Hollistique"
+          # whether to omit favicon resource links
+          noFavicon = false
+          # modern SVG favicon to use in place of older style .png and .ico files
+          svgFavicon = ""
+          # Android browser theme color
+          themeColor = "#ffffff"
+          # Safari mask icon color
+          iconColor = "#5bbad5"
+          # Windows v8-10 tile color
+          tileColor = "#da532c"
+        # Search config
+        [languages.fr.params.search]
+          enable = true
+          # type of search engine ("lunr", "algolia")
+          type = "algolia"
+          # max index length of the chunked content
+          contentLength = 4000
+          # placeholder of the search bar
+          placeholder = ""
+          # max number of results length
+          maxResultLength = 10
+          # snippet length of the result
+          snippetLength = 30
+          # HTML tag name of the highlight part in results
+          highlightTag = "em"
+          # whether to use the absolute URL based on the baseURL in search index
+          absoluteURL = false
+          [languages.fr.params.search.algolia]
+            index = "index.fr"
+            appID = "PASDMWALPK"
+            searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+        # Home page config
+        [languages.fr.params.home]
+          # amount of RSS pages
+          rss = 10
+          # Home page profile
+          [languages.fr.params.home.profile]
+            enable = true
+            # Gravatar Email for preferred avatar in home page
+            gravatarEmail = ""
+            # URL of avatar shown in home page
+            avatarURL = "/images/avatar.png"
+            # title shown in home page (HTML format is supported)
+            title = "uBlogger | Hugo Theme"
+            # subtitle shown in home page (HTML format is supported)
+            subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+            # whether to show social links
+            social = true
+            # disclaimer (HTML format is supported)
+            disclaimer = ""
+          # Home page posts
+          [languages.fr.params.home.posts]
+            enable = true
+            # special amount of posts in each home posts page
+            paginate = 6
+        # Social config in home page
+        [languages.fr.params.social]
+          GitHub = "xxxx"
+          Linkedin = ""
+          Twitter = "xxxx"
+          Instagram = "xxxx"
+          Facebook = "xxxx"
+          Telegram = "xxxx"
+          Medium = ""
+          Gitlab = ""
+          Youtubelegacy = "xxxx"
+          Youtubecustom = ""
+          Youtubechannel = ""
+          Tumblr = ""
+          Quora = ""
+          Keybase = ""
+          Pinterest = ""
+          Reddit = ""
+          Codepen = ""
+          FreeCodeCamp = ""
+          Bitbucket = ""
+          Stackoverflow = ""
+          Weibo = ""
+          Odnoklassniki = ""
+          VK = ""
+          Flickr = ""
+          Xing = ""
+          Snapchat = ""
+          Soundcloud = ""
+          Spotify = ""
+          Bandcamp = ""
+          Paypal = ""
+          Fivehundredpx = ""
+          Mix = ""
+          Goodreads = ""
+          Lastfm = ""
+          Foursquare = ""
+          Hackernews = ""
+          Kickstarter = ""
+          Patreon = ""
+          Steam = ""
+          Twitch = ""
+          Strava = ""
+          Skype = ""
+          Whatsapp = ""
+          Zhihu = ""
+          Douban = ""
+          Angellist = ""
+          Slidershare = ""
+          Jsfiddle = ""
+          Deviantart = ""
+          Behance = ""
+          Dribbble = ""
+          Wordpress = ""
+          Vine = ""
+          Googlescholar = ""
+          Researchgate = ""
+          Thingiverse = ""
+          Devto = ""
+          Gitea = ""
+          XMPP = ""
+          Matrix = ""
+          Bilibili = ""
+          Email = "xxxx@xxxx.com"
+          DockerHub = ""
+          Discord = "xxxxxxxxx"
+          Leanpub = ""
+          Udemy = ""
+          RSS = true
+          [languages.fr.params.social.Mastodon]
+            id = "@xxxx"
+            prefix = "https://mastodon.technology/"
 
 [params]
   # uBlogger theme version
@@ -235,16 +430,12 @@ enableEmoji = true
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/upagge/dolboblog-theme"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
-  # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
-  # 日期格式
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
   # Header config
