@@ -6,7 +6,7 @@ page:
     theme: "wide"
 
 tags:
-categories: ["Fondations"]
+categories: ["Compendium"]
 
 toc:
   auto: false
