@@ -6,7 +6,7 @@ page:
     theme: "wide"
 
 tags: ["respiration", "système nerveux", "fight/flight"]
-categories: ["Fondations"]
+categories: ["Compendium"]
 
 toc:
   auto: false
