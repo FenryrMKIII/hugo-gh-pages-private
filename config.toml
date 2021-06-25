@@ -247,6 +247,22 @@ enableEmoji = true
           title = ""
           weight = 1
         [[languages.fr.menu.main]]
+          identifier = "services"
+          pre = ""
+          post = ""
+          name = "Services"
+          url = "/services/"
+          title = ""
+          weight = 2
+        [[languages.fr.menu.main]]
+          identifier = "à propos"
+          pre = ""
+          post = ""
+          name = "à propos"
+          url = "/about/"
+          title = ""
+          weight = 5
+        [[languages.fr.menu.main]]
           identifier = "tags"
           pre = ""
           post = ""
@@ -270,14 +286,6 @@ enableEmoji = true
           url = "/categories/Compendium/"
           title = ""
           weight = 4
-        [[languages.fr.menu.main]]
-          identifier = "à propos"
-          pre = ""
-          post = ""
-          name = "à propos"
-          url = "/about/"
-          title = ""
-          weight = 5
         [[languages.fr.menu.main]]
           identifier = "github"
           pre = "<i class='fab fa-github fa-fw'></i>"
@@ -520,7 +528,7 @@ enableEmoji = true
   [params.comment]
     enable = true
     [params.comment.remark42]
-      enable = true
+      enable = false
       host = "https://comments.upagge.ru"
       site = "documentation"
       locale = "en"
