@@ -10,7 +10,7 @@ resources:
 
 tags: ["emoji"]
 categories: ["Markdown"]
-
+draft: True
 
 ---
 

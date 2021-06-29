@@ -14,6 +14,7 @@ resources:
 tags: ["shortcodes"]
 categories: ["documentation"]
 
+draft: True
 
 ---
 

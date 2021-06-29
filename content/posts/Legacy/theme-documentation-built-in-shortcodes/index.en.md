@@ -12,7 +12,7 @@ resources:
 tags: ["shortcodes"]
 categories: ["documentation"]
 
-
+draft: True
 ---
 
 **Hugo** provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.

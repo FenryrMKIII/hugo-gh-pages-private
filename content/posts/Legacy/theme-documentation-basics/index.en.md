@@ -15,7 +15,7 @@ page:
 tags: ["installation", "configuration"]
 categories: ["documentation"]
 
-
+draft: True
 
 toc:
   auto: false

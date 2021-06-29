@@ -1,7 +1,10 @@
 ---
+draft: true
 title: "Bien respirer, c'est la clé"
 description: "Comment utiliser la respiration pour influencer son état"
-    
+date: 2021-06-28T15:00:00+02:00
+lastmod: 2021-06-28T15:00:00+02:00
+
 page:
     theme: "wide"
 
@@ -9,7 +12,7 @@ tags: ["respiration", "système nerveux", "fight/flight"]
 categories: ["Compendium"]
 
 toc:
-  auto: false
+  auto: true
   
 ---
 

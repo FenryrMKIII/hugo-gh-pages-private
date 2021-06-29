@@ -1,4 +1,4 @@
-# baseURL = "https://fenryrmkiii.github.io/"
+# baseURL = ""
 
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "fr"
@@ -10,7 +10,7 @@ theme = "uBlogger"
 themesDir = "themes"
 
 # website title
-title = "uBlogger"
+title = "Hollistic"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -93,7 +93,7 @@ enableEmoji = true
 #     # App icon config
 #     [languages.en.params.app]
 #       # optional site title override for the app when added to an iOS home screen or Android launcher
-#       title = "uBlogger"
+#       title = "Hollistic"
 #       # whether to omit favicon resource links
 #       noFavicon = false
 #       # modern SVG favicon to use in place of older style .png and .ico files
@@ -135,11 +135,11 @@ enableEmoji = true
 #         # Gravatar Email for preferred avatar in home page
 #         gravatarEmail = ""
 #         # URL of avatar shown in home page
-#         avatarURL = "/images/avatar.png"
+#         avatarURL = "/assets/images/sandbagsbed_avatar.png"
 #         # title shown in home page (HTML format is supported)
-#         title = "uBlogger | Hugo Theme"
+#         title = "Hollistic | Performance humaine globale"
 #         # subtitle shown in home page (HTML format is supported)
-#         subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+#         subtitle = "Un regard sur l'optimisation Humaine"
 #         # whether to show social links
 #         social = true
 #         # disclaimer (HTML format is supported)
@@ -255,13 +255,37 @@ enableEmoji = true
           title = ""
           weight = 2
         [[languages.fr.menu.main]]
-          identifier = "à propos"
+          identifier = "Compendium"
           pre = ""
           post = ""
-          name = "à propos"
-          url = "/about/"
+          name = "Compendium"
+          url = "/categories/Compendium/"
           title = ""
           weight = 3
+        [[languages.fr.menu.main]]
+          identifier = "Pharmacie"
+          pre = ""
+          post = ""
+          name = "Pharmacie"
+          url = "/categories/Pharmacie/"
+          title = ""
+          weight = 4
+        [[languages.fr.menu.main]]
+          identifier = "Geek Lab"
+          pre = ""
+          post = ""
+          name = "Geek Lab"
+          url = "/categories/GeekLab/"
+          title = ""
+          weight = 5
+        [[languages.fr.menu.main]]
+          identifier = "À propos"
+          pre = ""
+          post = ""
+          name = "À propos"
+          url = "/about/"
+          title = ""
+          weight = 6
         [[languages.fr.menu.main]]
           identifier = "tags"
           pre = ""
@@ -269,7 +293,7 @@ enableEmoji = true
           name = "Balises"
           url = "/tags/"
           title = ""
-          weight = 4
+          weight = 7
         [[languages.fr.menu.main]]
           identifier = "Catégories"
           pre = ""
@@ -277,15 +301,7 @@ enableEmoji = true
           name = "Catégories"
           url = "/categories/"
           title = ""
-          weight = 5
-        [[languages.fr.menu.main]]
-          identifier = "Compendium"
-          pre = ""
-          post = ""
-          name = "Compendium"
-          url = "/categories/Compendium/"
-          title = ""
-          weight = 6
+          weight = 8
         [[languages.fr.menu.main]]
           identifier = "github"
           pre = "<i class='fab fa-github fa-fw'></i>"
@@ -293,7 +309,7 @@ enableEmoji = true
           name = ""
           url = "https://github.com/upagge/ublogger"
           title = "GitHub"
-          weight = 7
+          weight = 9
       [languages.fr.params]
         # site description
         description = "Hollistique. Une approche complète de la performance Humaine."
@@ -345,11 +361,11 @@ enableEmoji = true
             # Gravatar Email for preferred avatar in home page
             gravatarEmail = ""
             # URL of avatar shown in home page
-            avatarURL = "/images/avatar.png"
-            # title shown in home page (HTML format is supported)
-            title = "uBlogger | Hugo Theme"
-            # subtitle shown in home page (HTML format is supported)
-            subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+             avatarURL = "images/sandbagsbed_avatar.png"
+             # title shown in home page (HTML format is supported)
+             title = "Hollistic | Performance humaine globale"
+             # subtitle shown in home page (HTML format is supported)
+             subtitle = "Un regard sur l'optimisation Humaine"
             # whether to show social links
             social = true
             # disclaimer (HTML format is supported)
@@ -463,7 +479,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "uBlogger"
+      name = "Hollistic"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
